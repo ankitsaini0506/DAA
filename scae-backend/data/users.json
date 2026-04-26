@@ -1,0 +1,32 @@
+[
+  {
+    "id": "u001",
+    "name": "City Commissioner",
+    "email": "admin@scae.gov.in",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TiGqvENMKZp4N0m7oQrYbWuJ2l1e",
+    "role": "admin",
+    "zone": "City Hall",
+    "created_at": "2025-01-01T00:00:00Z",
+    "is_active": true
+  },
+  {
+    "id": "u002",
+    "name": "Aarav Sharma",
+    "email": "citizen@scae.gov.in",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TiGqvENMKZp4N0m7oQrYbWuJ2l1e",
+    "role": "citizen",
+    "zone": "North Gate",
+    "created_at": "2025-01-02T00:00:00Z",
+    "is_active": true
+  },
+  {
+    "id": "u003",
+    "name": "Dept Officer Ravi",
+    "email": "dept@scae.gov.in",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TiGqvENMKZp4N0m7oQrYbWuJ2l1e",
+    "role": "dept",
+    "zone": "Operations Center",
+    "created_at": "2025-01-03T00:00:00Z",
+    "is_active": true
+  }
+]

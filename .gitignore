@@ -1,0 +1,13 @@
+# compiled Java classes
+*.class
+
+# macOS native library (Linux .so is built on Render)
+*.dylib
+*.dll
+
+# macOS metadata
+.DS_Store
+
+# IDE
+.vscode/
+*.iml
