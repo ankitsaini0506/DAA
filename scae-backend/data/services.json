@@ -9,4 +9,4 @@
   {"id": "s008", "name": "East Market Police Chowk", "zone": "South-East",   "type": "Police",    "node_id": 8,  "phone": "100"},
   {"id": "s009", "name": "Sports Complex Stadium",    "zone": "South-East",   "type": "Sports",    "node_id": 12, "phone": "0135-2733333"},
   {"id": "s010", "name": "Industrial Zone Clinic",    "zone": "South-West",   "type": "Hospital",  "node_id": 11, "phone": "0135-2744444"}
-,{"id":"s011","name":"Test Clinic","zone":"East","type":"Hospital","node_id":10,"phone":""}]
+,{"id":"s011","name":"Test Clinic","zone":"East","type":"Hospital","node_id":10,"phone":""},{"id":"s012","name":"Test Clinic","zone":"East","type":"Hospital","node_id":10,"phone":""}]
