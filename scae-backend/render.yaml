@@ -1,23 +1,15 @@
 # render.yaml — Render.com deployment config
-# ye file Render ko batata hai ki backend kaise build aur run karna hai
+# Docker environment use karo — gcc, make, java sab pre-installed hai
 
 services:
   - type: web
     name: scae-backend
-    env: java
+    env: docker
     plan: free
     rootDir: scae-backend
+    dockerfilePath: Dockerfile
 
-    # build command — gcc install karo, C files compile karo, Java compile karo
-    buildCommand: |
-      apt-get install -y gcc make
-      make linux
-      javac -cp . ScaeServer.java handlers/*.java utils/*.java middleware/*.java
-
-    # server start karo — library path current dir se load hogi
-    startCommand: java -Djava.library.path=. ScaeServer
-
-    # environment variables — Render dashboard mein set karo
+    # environment variables
     envVars:
       - key: PORT
         value: "8000"
