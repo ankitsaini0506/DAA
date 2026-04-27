@@ -6,7 +6,7 @@ services:
     name: scae-backend
     env: java
     plan: free
-    rootDir: 
+    rootDir: scae-backend
 
     # build command — gcc install karo, C files compile karo, Java compile karo
     buildCommand: |
